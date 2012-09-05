@@ -1,0 +1,11 @@
+.motivator__img
+{
+    width: 510px;
+    height: 510px;
+    margin:  0 auto 36px;
+
+    outline: 2px solid #fff;
+    border: 2px solid #000;
+
+    background: #fff url(motivator__img.gif) no-repeat 50%;    
+}
