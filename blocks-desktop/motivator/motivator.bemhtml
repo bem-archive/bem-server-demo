@@ -1,8 +1,0 @@
-block motivator {
-    js: true
-
-    content: [
-        { elem: 'img' },
-        this.ctx.content
-    ]
-}

@@ -9,9 +9,12 @@ MAKE.decl('Arch', {
                 type: 'git',
                 url: 'git://github.com/bem/bem-bl.git',
                 treeish: '0.3'
+            },
+            'bootstrap-bl': {
+                type: 'git',
+                url: 'git://github.com/tadatuta/bootstrap-bl.git'
             }
         };
-
     }
 
 });

@@ -15,6 +15,28 @@
                     block: 'motivator',
                     content: [
                         {
+                            block: 'carousel',
+                            mix: [{ block: 'motivator', elem: 'img' }],
+                            content: [
+                                {
+                                    elem: 'item',
+                                    elemMods: { theme: 'qr' }
+                                },
+                                {
+                                    elem: 'item',
+                                    elemMods: { theme: 'bem' }
+                                },
+                                {
+                                    elem: 'item',
+                                    elemMods: { theme: 'another' }
+                                },
+                                {
+                                    elem: 'item',
+                                    elemMods: { theme: 'brain' }
+                                }
+                            ]
+                        },
+                        {
                             block: 'b-link',
                             url: 'https://github.com/bem/bem-tools',
                             mix: [{ block: 'motivator', elem: 'slogan' }],
@@ -23,53 +45,6 @@
                         {
                             elem: 'tagline',
                             content: 'вундервафля'
-                        }
-                    ]
-                },
-                {
-                    block: 'b-menu-horiz',
-                    mods: { layout: 'normal' },
-                    content: [
-                        {
-                            elem: 'item',
-                            elemMods: { state: 'current' },
-                            content: {
-                                block: 'b-link',
-                                mods: { pseudo: 'yes' },
-                                url: 'qr',
-                                mix: [{ block: 'b-menu-horiz', elem : 'item-selector' }],
-                                content: 'QR'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { pseudo : 'yes' },
-                                url: 'bem',
-                                mix: [{ block: 'b-menu-horiz', elem : 'item-selector' }],
-                                content: 'BEM'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { pseudo : 'yes' },
-                                url: 'another',
-                                mix: [{ block: 'b-menu-horiz', elem : 'item-selector' }],
-                                content: 'Yet Another BEM'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { pseudo : 'yes' },
-                                url: 'brain',
-                                mix: [{ block: 'b-menu-horiz', elem : 'item-selector' }],
-                                content: 'BEM my brain!'
-                            }
                         }
                     ]
                 }
