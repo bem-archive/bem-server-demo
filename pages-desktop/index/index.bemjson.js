@@ -12,39 +12,31 @@
             block: 'content',
             content: [
                 {
-                    block: 'motivator',
+                    block: 'carousel',
                     content: [
                         {
-                            block: 'carousel',
-                            mix: [{ block: 'motivator', elem: 'img' }],
                             content: [
                                 {
                                     elem: 'item',
-                                    elemMods: { theme: 'qr' }
+                                    content: [{block: 'motivator', content: [{elem: 'img', elemMods: {theme:'bem'}}, {elem: 'tagline', content: 'Делай BEM!'}]}]
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { theme: 'bem' }
+                                    content: [{block: 'motivator', content: [{elem: 'img', elemMods: {theme:'another'}}, {elem: 'tagline', content: 'Человек-летучая мышь - мрачный крепыш!'}]}]
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { theme: 'another' }
+                                    content: [{block: 'motivator', content: [{elem: 'img', elemMods: {theme:'america'}}, {elem: 'tagline', content: 'Капитан Америка - у всех истерика!'}]}]
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { theme: 'brain' }
+                                    content: [{block: 'motivator', content: [{elem: 'img', elemMods: {theme:'iron'}}, {elem: 'tagline', content: 'Железный человек - в шлеме на век!'}]}]
+                                },
+                                {
+                                    elem: 'item',
+                                    content: [{block: 'motivator', content: [{elem: 'img', elemMods: {theme:'brain'}}, {elem: 'tagline', content: 'А этого никто не знает'}]}]
                                 }
                             ]
-                        },
-                        {
-                            block: 'b-link',
-                            url: 'https://github.com/bem/bem-tools',
-                            mix: [{ block: 'motivator', elem: 'slogan' }],
-                            content: 'bem server'
-                        },
-                        {
-                            elem: 'tagline',
-                            content: 'вундервафля'
                         }
                     ]
                 }

@@ -1,0 +1,10 @@
+.carousel {
+    width: 590px;
+    padding: 50px;
+    margin: 0 auto 20px;
+
+    background: #000;
+
+    color: #fff;
+    text-align: center;
+}

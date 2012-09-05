@@ -2,6 +2,7 @@
 {
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 32px;
+    min-height: 60px;
 
     color: #fff;
 }
