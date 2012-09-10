@@ -7,3 +7,4 @@ node_modules
 pages-desktop/*/*.*
 !pages-desktop/*/*.bemjson.js
 !pages-desktop/.bem/*
+screenlog.*
